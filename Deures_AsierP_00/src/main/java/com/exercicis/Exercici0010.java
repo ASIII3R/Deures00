@@ -1,7 +1,6 @@
 package com.exercicis;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Exercici0010 {
 
@@ -35,8 +34,5 @@ public class Exercici0010 {
 
     public static void main(String[] args) {
 
-        /*
-            TODO: Resol aquí l'exercici
-        */
     }
 }
