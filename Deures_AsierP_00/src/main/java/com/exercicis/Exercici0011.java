@@ -2,7 +2,6 @@ package com.exercicis;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Random;
 
 public class Exercici0011 {
 
@@ -32,7 +31,6 @@ public class Exercici0011 {
         ArrayList<String> noms = new ArrayList<>(Arrays.asList(
             "Mario", "Princess Peach", "Wario", "Luigi", "Iggy Koopa", "Toad", "Yoshi", "Donkey Kong", "Birdo"
         ));
-
         /*
             TODO: Resol aquí l'exercici
         */

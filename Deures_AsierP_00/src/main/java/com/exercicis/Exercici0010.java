@@ -35,8 +35,10 @@ public class Exercici0010 {
 
     public static ArrayList<Double> dividirPerDos(ArrayList<Integer> llista) {
         ArrayList<Double> dividir = new ArrayList<>();
-        for (double num: llista){
-            dividir.add(num/2.0);
+        for (int num: llista){
+            if (num%2 != 0){
+                dividir.add(num/2.0);
+            }
         }
         return dividir;
     }
@@ -46,13 +48,13 @@ public class Exercici0010 {
         System.out.println("Llista inicial: "+ llistaAleatoria);
 
         ArrayList<Integer> llistaMultiplicada = multiplicarPerDos(llistaAleatoria);
-        System.out.println("Llista multiplicada per 2:"+llistaMultiplicada);
+        System.out.println("Llista multiplicada per 2: "+llistaMultiplicada);
 
         ArrayList<Integer> llistaImparells = filtrarImparells(llistaAleatoria);
         System.out.println("Llista només amb números imparells: "+llistaImparells);
 
         ArrayList<Double> llistaDividir = dividirPerDos(llistaAleatoria);
-        System.out.println("Llista imparells dividirs per 2: "+llistaDividir);
+        System.out.println("Llista imparells dividits per 2: "+llistaDividir);
 
     }
 }
